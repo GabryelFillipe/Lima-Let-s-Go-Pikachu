@@ -3,3 +3,35 @@
     margin: 0;
     box-sizing: border-box;
 }
+:root{
+    --primary-color: #F5CF06;
+    --secundary-color: #8E4106;
+}
+ul,li,ol{
+    list-style: none;
+}
+body{
+    font-family: "Righteous",  sans-serif;
+    background-color: var(--primary-color);
+    width: 100%;
+}
+header{
+    height: 60px;
+    width: 20%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding: 70px;
+}
+.pokebola{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.pokebola p{
+    padding: 17px;
+    color: #8E4106;
+    font-size: 32px;
+}
