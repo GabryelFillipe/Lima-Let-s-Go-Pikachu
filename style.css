@@ -14,6 +14,7 @@ body{
     font-family: "Righteous",  sans-serif;
     background-color: var(--primary-color);
     width: 100%;
+    max-height: 100vh;
 }
 header{
     height: 60px;
@@ -34,4 +35,109 @@ header{
     padding: 17px;
     color: #8E4106;
     font-size: 32px;
+}
+main{
+    height: 100vh;
+    width: 100%;
+}
+.background-text{
+    position: absolute;
+    height: 100vh;
+    width: 100vh;
+    top: -50px;
+    display: flex;
+    padding: 88px 0 0 0;
+}
+.background-text p{
+    font-size: 530px;
+
+    width: 100vh;
+    color: #fff5;
+}
+.background-text span{
+    position: absolute;
+    font-size: 410px;
+    width: 100vh;
+    top: 350px;
+    left:186px ;
+    /*padding: 150px 0px 0 186px;*/
+    color: #ffff;
+}
+.pikachu{
+    position: absolute;
+    display: flex;
+    width: 559px;
+    height: 551px;
+    top: 300px;
+    left: 651px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+}
+.pikachu img{
+    width: 600px;
+    height: 541px; 
+    /*padding: -500px;*/
+}
+ .textos{
+    position: relative;
+    width: 100vh;
+    /*padding: 659px 0 0 259px;*/
+    top: 759px;
+    left: 259px;
+    z-index: 1;
+}
+ .textos p{
+    display: flex;
+    width: 530px;
+    height: 79px;
+    font-size: 64px;
+    color: var(--secundary-color);
+
+}
+.textos span{
+    display: flex;
+    width: 489px;
+    height: 75px;
+    color: var(--secundary-color);
+    font-size: 20px;
+}
+.textos .button{
+    position: relative;
+    width: 411px;
+    left: 959px;
+    top: -99px;
+}
+.textos .button button{
+    display: flex; 
+    width: 411px;
+    height: 100px;
+    background-color: var(--secundary-color);
+}
+.textos .button button img{
+    position: relative;
+   display: flex;
+    top: 34px;
+    left: 73px;
+    width: 24px;
+    height: 24px;
+    /*padding: 34px 0 0 73px;*/
+}
+.textos .button button p{
+    position: relative;
+    display: flex;
+    top: 20px;
+    left: 87px;
+    width: 211px;
+    height: 50px;
+    font-size: 48px;
+    color: #ffff;
+}
+footer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    color: var(--secundary-color);
+    font-size: 16px;
 }
