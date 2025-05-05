@@ -141,3 +141,35 @@ footer{
     color: var(--secundary-color);
     font-size: 16px;
 }
+@media (max-width: 768px){
+    header{
+        width: 199px;
+        height: 49px;
+    }
+    .pokebola{
+        position: relative;
+        height: 49px;
+    }
+    .background-text{
+        position: absolute;
+        top: 15px;
+        width: 731px;
+        height: 309px;
+    }
+    .background-text p{
+        position: relative;
+        font-size: 200px;
+        left: 19px;
+        top: -40px;
+    }
+    .background-text span{
+        position: absolute;
+        left: 56px;
+        top: 125px;
+        font-size: 180px;
+    }
+    .pikachu img{
+        position: absolute;
+        
+    }
+}
