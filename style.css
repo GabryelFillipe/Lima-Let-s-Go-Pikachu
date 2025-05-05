@@ -17,14 +17,15 @@ body{
     max-height: 100vh;
 }
 header{
-    height: 60px;
+    height: 30px;
     width: 20%;
-    position: absolute;
+    position:relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    padding: 70px;
+    top: 70px;
+    left: 70px;
 }
 .pokebola{
     display: flex;
@@ -41,26 +42,27 @@ main{
     width: 100%;
 }
 .background-text{
-    position: absolute;
+    position: relative;
     height: 100vh;
     width: 100vh;
     top: -50px;
     display: flex;
-    padding: 88px 0 0 0;
+    left: 40px;
+    top: 88px;
 }
 .background-text p{
-    font-size: 530px;
-
+    position: relative;
+    font-size: 400px;
     width: 100vh;
     color: #fff5;
+    left: 11px;
 }
 .background-text span{
     position: absolute;
-    font-size: 410px;
+    font-size: 300px;
     width: 100vh;
-    top: 350px;
+    top: 163px;
     left:186px ;
-    /*padding: 150px 0px 0 186px;*/
     color: #ffff;
 }
 .pikachu{
@@ -68,24 +70,22 @@ main{
     display: flex;
     width: 559px;
     height: 551px;
-    top: 300px;
-    left: 651px;
+    top: 250px;
+    left: 500px;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+
     
 }
 .pikachu img{
     width: 600px;
     height: 541px; 
-    /*padding: -500px;*/
 }
  .textos{
     position: relative;
     width: 100vh;
-    /*padding: 659px 0 0 259px;*/
-    top: 759px;
-    left: 259px;
+    top: -450px; 
+    left: 120px;
     z-index: 1;
 }
  .textos p{
@@ -98,6 +98,7 @@ main{
 }
 .textos span{
     display: flex;
+    justify-content: space-between;
     width: 489px;
     height: 75px;
     color: var(--secundary-color);
@@ -106,8 +107,9 @@ main{
 .textos .button{
     position: relative;
     width: 411px;
-    left: 959px;
-    top: -99px;
+    left: 900px;
+    right: 70px;
+    bottom: 140px
 }
 .textos .button button{
     display: flex; 
@@ -122,7 +124,6 @@ main{
     left: 73px;
     width: 24px;
     height: 24px;
-    /*padding: 34px 0 0 73px;*/
 }
 .textos .button button p{
     position: relative;
@@ -135,41 +136,75 @@ main{
     color: #ffff;
 }
 footer{
+    position: relative;
     display: flex;
     width: 100%;
+    align-items: end;
+    top: 24px;
     justify-content: center;
     color: var(--secundary-color);
     font-size: 16px;
 }
 @media (max-width: 768px){
     header{
-        width: 199px;
+        position: relative;
+        top: 30px;
+        width: 200px;
         height: 49px;
     }
     .pokebola{
-        position: relative;
         height: 49px;
+        
     }
     .background-text{
-        position: absolute;
-        top: 15px;
+        position: relative;
+        top: 78px;
         width: 731px;
         height: 309px;
     }
     .background-text p{
+        width: 731px;
+        overflow: hidden;
         position: relative;
         font-size: 200px;
-        left: 19px;
-        top: -40px;
+        left: 10px;
+        top: -98px;
     }
     .background-text span{
         position: absolute;
+        width: 658px;
         left: 56px;
-        top: 125px;
+        top: -10px;
         font-size: 180px;
+    }
+    .pikachu{
+        position: absolute;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        top: 241px;
+        left: 105px;
+        width: 559px;
+        height: 541px;
     }
     .pikachu img{
         position: absolute;
-        
+        display: flex;
+        justify-items: center;
+        align-items: center;
+    }
+    .textos{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        top: 400px;
+        left: 100px;
+        width: 500px;
+    }
+    .textos .button{
+        position: relative;
+        left: 100px;
+        top: 11px;
     }
 }
