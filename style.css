@@ -207,4 +207,77 @@ footer{
         left: 100px;
         top: 11px;
     }
+    footer{
+        display: none;
+    }
+}
+@media (max-width:360px){
+    main{
+        padding: 0;
+    }
+    .pokebola{
+        height: 48px;
+    }
+    .background-text{
+        height: 214px;
+        width: 100%;
+        position: relative;
+        left: 0;
+        display: flex;
+        align-items: start;
+        padding-left: 0;
+
+    }
+    .background-text p{
+        position: relative;
+        left: 0;
+        font-weight: 400;
+        font-size: 80px;
+        display: flex;
+        justify-content: start;
+    }
+    .background-text span{
+        position: absolute;
+        left: 37px;
+        top: -57px;
+        font-size: 80px;
+        display: flex;
+        justify-content: center;
+        width: 293px;
+    }
+    .pikachu{
+        width: 80%;
+        height: 332px;
+        position: absolute;
+        display: flex;
+        /* justify-content: center;
+        align-items: center; */
+        left: 38px;
+        top: 124px;
+    }
+    .pikachu img{
+        position: absolute;
+        /* left: 14px; */
+        width: 333px;
+        height: 322px;
+    }
+    .textos{
+        height: 50px;
+        width: 80%;
+        position: relative;
+        left: 18px;
+        top: 250px;
+    }
+    .textos p{
+        font-size: 40px;
+    }
+    .textos span{
+        display: none;
+    }
+    .textos .button{
+        width: 50%;
+        height: 100px;
+        position: relative;
+        left: 24px;
+    }
 }
