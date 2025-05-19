@@ -43,17 +43,17 @@ main{
 }
 .background-text{
     position: relative;
-    height: 100vh;
-    width: 100vh;
+    height: 550px;
+    width: 1440px;
     top: -50px;
     display: flex;
-    left: 40px;
+    left: 10px;
     top: 88px;
 }
 .background-text p{
     position: relative;
     font-size: 400px;
-    width: 100vh;
+    width: 1400px;
     color: #fff5;
     left: 11px;
 }
@@ -84,7 +84,7 @@ main{
  .textos{
     position: relative;
     width: 100vh;
-    top: -450px; 
+    top: 40px; 
     left: 120px;
     z-index: 1;
 }
@@ -109,7 +109,7 @@ main{
     width: 411px;
     left: 900px;
     right: 70px;
-    bottom: 140px
+    bottom: 120px;
 }
 .textos .button button{
     display: flex; 
@@ -135,12 +135,12 @@ main{
     font-size: 48px;
     color: #ffff;
 }
-footer{
+footer h3{
     position: relative;
     display: flex;
     width: 100%;
     align-items: end;
-    top: 24px;
+    top: -24px;
     justify-content: center;
     color: var(--secundary-color);
     font-size: 16px;
@@ -263,21 +263,57 @@ footer{
     }
     .textos{
         height: 50px;
-        width: 80%;
+        width: 332px;
         position: relative;
         left: 18px;
         top: 250px;
     }
     .textos p{
         font-size: 40px;
+        width: 332px;
     }
     .textos span{
         display: none;
     }
     .textos .button{
-        width: 50%;
-        height: 100px;
+        width: 332px;
         position: relative;
-        left: 24px;
+        left: 14px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 0 0 0 ;
     }
+    .textos .button button {
+        /* display: flex;
+        align-items: center; /* Alinha verticalmente */
+        /* justify-content: center; Centraliza horizontalmente */
+        gap: 18px;  
+        width: 332px;
+        height: 100px;
+        background-color: var(--secundary-color);
+        border: none;
+        padding-right: 40px;
+        position: relative;
+        right: 16px;
+        padding: 0;
+    }
+    
+    .textos .button button img {
+        width: 32px;
+        height: 32px;
+        position: relative;
+        left: 38px;
+        
+    }
+    
+    .textos .button button p {
+        font-size: 44px;
+        color: #fff;
+        margin: 0;
+        position: relative;
+        left: 44px;
+        top: 24px;
+    }
+    
 }
